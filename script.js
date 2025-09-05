@@ -29,7 +29,7 @@ const loop = setInterval(() => {
         polvo.style.bottom = `${polvoPosition}px`;
 
         polvo.src = 'imagens/game-over.png';
-        polvo.style.width = '75px';
+        polvo.style.width = '150px';
         polvo.style.marginLeft = '50px';
 
         clearInterval(loop);
