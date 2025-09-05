@@ -1,9 +1,33 @@
-<link rel="stylesheet" href="style.css">
-<script src="script.js" defer></script>
+<!DOCTYPE html>
+<html lang="pt-br">
 
-<div class="game-board">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Théo no fundo do mar</title>
 
-<img src="imagens/polvo.png" class="polvo">
-<img src="imagens/pedra.png" class="pipe">
+    <link rel="stylesheet" href="jogo.css">
+    <script src="script.js" defer></script>
 
-</div>
+</head>
+
+<body>
+
+    <div class="game-board">
+        <div id="score">0</div>
+
+        <img src="imagens/polvo.png" class="polvo">
+        <img src="imagens/pedra.png" class="pipe">
+        <button id="restart-btn">Reiniciar</button>
+
+
+        <div class="bubble" style="left: 20%; animation-delay: 0s;"></div>
+        <div class="bubble" style="left: 50%; animation-delay: 2s;"></div>
+        <div class="bubble" style="left: 80%; animation-delay: 4s;"></div>
+
+    </div>
+
+
+</body>
+
+</html>
